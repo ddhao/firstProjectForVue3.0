@@ -1,5 +1,5 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <h1>{{ msg }}<span>信息</span></h1>
   <button @click="count++">count is: {{ count }}</button>
   <p>Edit <code>components/HelloWorld.vue</code> to test hot module replacement.</p>
 </template>
@@ -17,3 +17,13 @@ export default {
   }
 }
 </script>
+
+<style lang="postcss" scoped>
+h1{
+  font-size: 60px;
+  span{
+    font-size: 40px;
+    color: var(--color);
+  }
+}
+</style>

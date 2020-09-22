@@ -6,11 +6,15 @@
     "build": "vite build"
   },
   "dependencies": {
-    "typescript": "^4.0.3",
     "vue": "^3.0.0-rc.1"
   },
   "devDependencies": {
-    "vite": "^1.0.0-rc.1",
-    "@vue/compiler-sfc": "^3.0.0-rc.1"
+    "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "autoprefixer": "^8.0.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-nested": "^4.0.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "reset-css": "^5.0.1",
+    "vite": "^1.0.0-rc.1"
   }
 }

@@ -3,7 +3,7 @@ import path from 'path'
 module.exports = {
   // 别名
   alias: {
-    '@': path.resolve(__dirname, '.src')
+    '/@/': path.resolve(__dirname, './src')
   },
   // 配置Dep优化
   optimizeDeps: {
