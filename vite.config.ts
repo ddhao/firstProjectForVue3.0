@@ -13,7 +13,7 @@ module.exports = {
   port: 8586,
   proxy: { // 配置跨域
     '/api': {
-      target: 'http://test-m.xingfu-jiabei.com/v4.0',
+      target: 'http://baidu.com/',
       changeOrigin: true,
       rewrite: (path: string) => path.replace(/^\/api/, '')
     }
